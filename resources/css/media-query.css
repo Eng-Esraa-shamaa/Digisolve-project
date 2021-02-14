@@ -1,0 +1,174 @@
+/* for big tablets and small laptops screen */
+@media only  screen and (max-width:1200px){
+    html ,body{
+        
+        font-size: 14px;
+        
+      
+    }
+    .about-para{
+        margin: 20px;
+    }
+    .header-box .btn{
+        left:194px;
+    }
+    .section-heading  ,.Testimonial-heading ,.package-heading{
+       
+        margin-top: 90px;
+        }
+    .about-heading{
+           
+            margin-left:25px
+        }
+       
+        
+}
+/* different sized of tablets screeen*/
+@media only screen and (max-width:1024px){
+    .header-box .btn{
+        left:160px;
+    }
+
+    html ,body{
+        
+        font-size: 12px;
+        
+      
+    }
+   
+    .row{
+        padding: 0 4%;
+    }
+    .package-box{
+        width: 100%;
+    }
+    .packages-heading{
+    
+        margin-bottom: 25px;
+       
+    }
+    footer {
+      
+        padding: 30px;
+       
+    }
+}
+/* larger phones to smaller tablets*/
+@media only screen and (max-width:767px){
+    html ,body{
+        
+        font-size: 10px;
+        
+      
+    }
+    .header-box .btn{
+        left:115px;
+    }
+    .section-heading  ,.Testimonial-heading ,.package-heading{
+       
+        margin-top: 60px;
+    }
+    .section-heading {
+        margin-bottom: 10px;
+    }
+    .section-subHeading::after{
+       
+        margin: 15px auto 0 auto;
+    }
+    .Testimonial-heading{
+     
+        
+        margin-bottom: 10px;
+   
+    }
+    .header-box-text{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width:678px){
+    .header-box .btn{
+        left:98px;
+    }
+
+}
+/* for smaller phone screens "all phone sizes" */
+@media only screen and (max-width:480px){
+    .header-box .btn{
+        left:45px;
+    }
+    h1{
+        
+        margin-top: 20px;
+        font-size: 400%;
+    }
+    .laptop-image{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .span-1-of-4{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    .span-1-of-3{
+        padding: 0 10%;
+        margin-bottom: 5px;
+    }
+    .contact-form{
+   
+        width: 100%;
+       
+    }
+    .contact-label{
+        padding-left: 0;
+    }
+    .footer-nav,.social-links {
+      
+        float:none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .work-portfolio li{
+        width: 50%;
+       
+        
+    }
+    .contact-section{
+     
+        margin-bottom: 20px;
+    }
+    
+     
+}
+@media only screen and (max-width:400px){
+    .header-box .btn{
+        left:35px;
+    }
+    h1{
+        
+        margin-top: 50px;
+       
+    }
+}
+@media only screen and (max-width:372px){
+    .header-box .btn{
+        left:25px;
+        text-align: center;
+    }
+    .main-nav li a:link ,.main-nav li a:visited{
+        position: sticky;
+        top: -111px;
+    }
+  
+}
+@media only screen and (max-width:333px){
+    .header-box .btn{
+        left:10px;
+        text-align: center;
+    }
+    .logo{
+        width: 26%;
+        height: 26%;
+    }
+    
+  
+}
